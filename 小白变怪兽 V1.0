@@ -1,6 +1,70 @@
 
 #第二章 CSS核心技巧
 ##块级和行内
+<!DOCTYPE html>
+<head>
+  <title>块级和行内</title>
+  <link rel="stylesheet" href="./style.css"
+</head>
+<body>
+<h1>块级</h1>
+<p>
+  块级
+</p>
+<big>行内</big>
+<small>行内</small>
+</body>
+body{
+  color: goldenrod;
+}
+h1{
+  color: red;
+}
+big{
+  display: block;
+}
+## 盒模型
+<!DOCTYPE html>
+<head>
+  <title>盒模型</title>
+  <link rel="stylesheet" href="./style.css"
+</head>
+<body>
+<div>
+content
+</div>
+</body>
+div{
+  border: 5px solid;
+  padding: 40px;
+  margin: 30px;
+  box-sizing: border-box;
+}
+## class和id的妙用
+<!DOCTYPE html>
+<head>
+  <title>class和id的妙用</title>
+  <link rel="stylesheet" href="./style.css"
+</head>
+<body>
+  <div class="header">
+    header
+  </div>
+<h2 id="first">first</h2>
+<div class="second">
+  second
+</div>
+</body>
+.header{
+  color: goldenrod;
+}
+#first{
+  color: blue;
+}
+.second{
+  font-size: 20px;
+}
+
 #第四章 浮动和清除浮动
 ## float 浮动 
  <!DOCTYPE html>
