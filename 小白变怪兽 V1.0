@@ -1,1 +1,39 @@
 
+#第二章 CSS核心技巧
+##块级和行内
+#第四章 浮动和清除浮动
+## float 浮动 
+ <!DOCTYPE html>
+<head>
+  <title>Page Title</title>
+  <link rel="stylesheet" href="./style.css" 
+</head>
+<body>
+  <div class="block1">
+    block1
+  </div>
+  <div class="block2">
+    block2
+  </div>
+</body>
+.html {
+  box-sizing:border-box;
+ }
+.block1{
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  font-size: 30px;
+  color: white;
+  background: goldenrod;
+}
+.block2{
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+  font-size: 30px;
+  color: white;
+  background: teal;
+}
+
+
